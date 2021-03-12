@@ -558,5 +558,11 @@
 
 <script type="text/javascript">
 var userLang = navigator.language || navigator.userLanguage; 
-if userLang == "fr-FR" {document.getElementById('en').remove()} else {document.getElementById('en').remove()}
+if userLang == "fr-FR" {
+    document.getElementById('en').remove();
+    console.log("Page language set to "userLang)
+} else {
+    document.getElementById('en').remove();
+    console.log("Page language set to "userLang)
+}
 </script>
