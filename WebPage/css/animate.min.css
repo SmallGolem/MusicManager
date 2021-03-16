@@ -78,8 +78,8 @@ Copyright (c) 2015 Daniel Eden
 	}
 
 	90% {
--webkit-transform:translate3d(0,-4px,0);
-transform:translate3d(0,-4px,0)
+		-webkit-transform:translate3d(0,-4px,0);
+		transform:translate3d(0,-4px,0)
 	}
 }
 
@@ -94,19 +94,12 @@ transform:translate3d(0,-4px,0)
 	opacity: 1
 }
 
-25
-%
-,
-75
-%
-{
-opacity
-:
-0
+25%,75% {
+	opacity:0
+	}
 }
-}
-@
-keyframes flash { 0%,100%,50%{
+
+@keyframes flash { 0%,100%,50%{
 	opacity: 1
 }
 
